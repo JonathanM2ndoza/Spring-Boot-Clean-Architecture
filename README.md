@@ -13,4 +13,4 @@
 # Frameworks and Drivers: 
 "Contain any frameworks or tools you need to run your application."
 
-![Screenshot](screenshot.png)
+![Screenshot](clean-architecture-maven.png)
