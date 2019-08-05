@@ -1,5 +1,6 @@
 # Exmaple Clean Architecture with Spring Boot
 
+![Screenshot](clean-architecture.png)
 
 # Domain: 
 "These are the business objects of your application. These should not be affected by any change external to them, and these should be the most stable code within your application. These can be POJOs, objects with methods, or even data structures."
@@ -19,3 +20,9 @@
 
 # IntelliJ IDEA - Spring Boot
 ![Screenshot](clean-architecture-spring-boot.png)
+
+
+
+
+# Postman - Create
+![Screenshot](clean-architecture-postman-create.png)
