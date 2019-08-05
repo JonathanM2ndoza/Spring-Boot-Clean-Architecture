@@ -1,4 +1,4 @@
-package com.jmendoza.springboot.cleanarchitecture.application.config;
+package com.jmendoza.springboot.cleanarchitecture.configuration;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

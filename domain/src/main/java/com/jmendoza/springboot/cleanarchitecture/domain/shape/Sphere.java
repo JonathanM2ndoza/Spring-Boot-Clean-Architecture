@@ -1,30 +1,31 @@
 package com.jmendoza.springboot.cleanarchitecture.domain.shape;
 
-import com.jmendoza.springboot.cleanarchitecture.domain.printer.Printer;
-
 public class Sphere implements CircumferenceShape {
 
-    private int id;
+    public static final float FLOAT_PI = 3.14f;
+    private String id;
     private double radius;
-    private Printer printer;
 
-    public Sphere(int id, double radius, Printer printer) {
+    public Sphere(String id, double radius) {
         this.id = id;
         this.radius = radius;
-        this.printer = printer;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    @Override
-    public void calculateCircumference() {
-        printer.printValue(String.valueOf(3.14f * 2 * radius));
+    public double getRadius() {
+        return radius;
     }
 
     @Override
-    public void calculateArea() {
-        printer.printValue(String.valueOf(4 * 3.14f * radius * radius));
+    public double calculateCircumference() {
+        return FLOAT_PI * 2 * radius;
+    }
+
+    @Override
+    public double calculateArea() {
+        return 4 * FLOAT_PI * radius * radius;
     }
 }

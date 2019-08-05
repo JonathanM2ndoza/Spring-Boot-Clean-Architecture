@@ -15,22 +15,12 @@
     <dependencies>
         <dependency>
             <groupId>com.jmendoza.springboot</groupId>
-            <artifactId>clean-architecture-domain</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.jmendoza.springboot</groupId>
-            <artifactId>clean-architecture-usecase</artifactId>
+            <artifactId>clean-architecture-configuration</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
         <dependency>
             <groupId>com.jmendoza.springboot</groupId>
             <artifactId>clean-architecture-adapter</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>com.jmendoza.springboot</groupId>
-            <artifactId>clean-architecture-configuration</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
@@ -40,9 +30,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <mainClass>com.jmendoza.springboot.cleanarchitecture.configuration.CleanArchitectureApplication</mainClass>
-                </configuration>
             </plugin>
         </plugins>
     </build>

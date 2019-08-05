@@ -12,5 +12,12 @@
     <artifactId>clean-architecture-adapter</artifactId>
     <packaging>jar</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.jmendoza.springboot</groupId>
+            <artifactId>clean-architecture-usecase</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
