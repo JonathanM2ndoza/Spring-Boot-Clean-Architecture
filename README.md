@@ -1,4 +1,4 @@
-# Exmaple Clean Architecture with Spring Boot
+# Example Clean Architecture with Spring Boot
 
 ![Screenshot](clean-architecture.png)
 
