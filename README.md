@@ -16,3 +16,6 @@
 # IntelliJ IDEA - Maven
 ![Screenshot](clean-architecture-maven.png)
 
+
+# IntelliJ IDEA - Spring Boot
+![Screenshot](clean-architecture-spring-boot.png)
