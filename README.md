@@ -17,12 +17,11 @@
 # IntelliJ IDEA - Maven
 ![Screenshot](clean-architecture-maven.png)
 
-
 # IntelliJ IDEA - Spring Boot
 ![Screenshot](clean-architecture-spring-boot.png)
 
-
-
-
 # Postman - Create
 ![Screenshot](clean-architecture-postman-create.png)
+
+# Postman - Get
+![Screenshot](clean-architecture-postman-get.png)
