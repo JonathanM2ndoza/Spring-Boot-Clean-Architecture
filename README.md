@@ -15,13 +15,13 @@
 "Contain any frameworks or tools you need to run your application."
 
 # IntelliJ IDEA - Maven
-![Screenshot](clean-architecture-maven.png)
+![Screenshot](prtsc/clean-architecture-maven.png)
 
 # IntelliJ IDEA - Spring Boot
-![Screenshot](clean-architecture-spring-boot.png)
+![Screenshot](prtsc/clean-architecture-spring-boot.png)
 
 # Postman - Create
-![Screenshot](clean-architecture-postman-create.png)
+![Screenshot](prtsc/clean-architecture-postman-create.png)
 
 # Postman - Get
-![Screenshot](clean-architecture-postman-get.png)
+![Screenshot](prtsc/clean-architecture-postman-get.png)
